@@ -34,8 +34,7 @@ You will be given an array a and a value x. All you need to do is check whether 
 Array can contain numbers or strings. X can be either.
 Return true if the array contains the value, false if not.
 ### My solution: 
-```
-public class Solution {
+```public class Solution {
 
     public static boolean check(Object[] a, Object x) {
         for (int i = 0; i < a.length; i++)
@@ -44,7 +43,8 @@ public class Solution {
         return false;
     }
 
-}```
+}
+```
 
 ### Fav solution:
 
@@ -56,6 +56,7 @@ class Solution
     {
         return Arrays.asList(a).contains(x);
     }
-}```
+}
+```
 
 [Task link](https://www.codewars.com/kata/57cc975ed542d3148f00015b/java)
